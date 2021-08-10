@@ -1,0 +1,39 @@
+why Hashing ? 
+play with elements indices . 
+
+                  traverse the array 
+
+two options ->   
+                with the use of extra memory we map the 
+                elements and indices . 
+
+Problem -> Storing indices of such large elements cuz 
+arrays's limit is only 10^8 (that too global) .
+
+            Hashing
+
+      converting elements into smaller elements 
+      using somme functions . 
+
+        1234556787  -> h(x) = x%10 
+
+if two BigElements key is equal -> Collision
+
+for handeling Collision -> two methods -
+1. seperate chaining
+2. open addressing
+
+1. Seperate Chaining -> if collision happens , create chain of values at same key using linked list . 
+Worst Case -> O(n) ; 
+
+Load Factor -> arary elements- n and no of keys - b so n/b
+
+2. open addressing - if collision , do probing . 
+    probing - using  a second argument called probe number
+    in the hash function . 
+
+    probe number depends on the key , hence given by P(k)
+
+Linear Probing - P(k) = a*k + b 
+Quadratic Probing - P(k) = a*k^2 + b*k + c 
+Double Hashing = P(k,x) = k*h2(x) , h2(x) is a  secondry hash function . 

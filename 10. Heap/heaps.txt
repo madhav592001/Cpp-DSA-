@@ -1,0 +1,7 @@
+Heaps - binary tree based DS , not necessarily BST . 
+
+heaps are of two types - max Heap , Min heap . 
+
+Max Heap -> Root is greater than rest of the elements in subtree . 
+Min Heap -> Root is less than rest of the element . 
+

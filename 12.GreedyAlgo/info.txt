@@ -1,0 +1,6 @@
+definition - at present , jo best lage wo lelo . 
+
+General things to remember in Greedy techniques - 
+1. generally , sorting is done first while applying greedy technique . 
+2. sometimes we don't realize that we are applying greedy because it comes 
+from inside . 

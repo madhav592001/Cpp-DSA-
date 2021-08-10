@@ -1,0 +1,36 @@
+                  Graph theories 
+1. Nodes - these are the states of vertex . for instance , users in case of facebook. 
+
+2. Edges - links between states in a graph . for instance , connections between users.
+
+Edges are of two types : 
+1. undirected : two way edges . 
+2. directed : on way edges . 
+
+Representation - 
+two types - adjacency matrix and adjacency list.
+
+       adjacency Matrix                  adjacency list
+
+    2d array where a[i][j] == 1         array of lists , where 
+    if there if an edge from i to j     a[i] is a list of nodes
+    else a[i][j] == 0                   xi that are reachable
+                                        from i  .
+
+Depth First Search - 
+preorder , inorder, postorder .
+
+key points - 
+1. preorder - first time when call comes on the node. 
+2. inorder - when the call works inside subtree ( in dfs tree) of that node 
+2. postorder - after working on the subtree call comes back on the node . after this , call won't come the same node. 
+
+DFS is implementes using stacks . 
+
+Breadth first search - 
+key points -  inplemented using queues . 
+
+differents properties of components of graphs 
+1. Weighted nodes - values are associated with nodes . 
+2. weighted edges - values are associated with edges . 
+
